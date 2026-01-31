@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ayoub">
+    <meta name="description" content="Explications sur le fonctionnement technique du cloud">
+    <title>Le Cloud - Fonctionnement</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <header>
+    <h1>Le Cloud : qu'est-ce que c'est ?</h1>
+    <p>Voici un guide complet pour comprendre le cloud computing</p>
+    </header>
+
+    <nav>
+        <h2>Le Menu</h2>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="definition.html">Définition</a></li>
+            <li><a href="fonctionnement.html" class="actuel">Fonctionnement</a></li>
+            <li><a href="exemples.html">Exemples</a></li>
+            <li><a href="securite.html">Sécurité</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>3. Le Fonctionnement du Cloud : comment ça marche "dans les coulisses" ?</h2>
+            <p>Le Cloud n'est pas une entité magique qui flotte dans les airs. C'est une machine immense et très bien organisée. Pour faire simple, on peut diviser son fonctionnement en trois grandes étapes physiques et logicielles.</p>
+        </section>
+
+        <section>
+            <h3>3.1. La base physique : Les Data Centers</h3>
+            <p>Pour que le Cloud existe, il faut du matériel, et beaucoup ! Tout repose sur des <strong>Data Centers</strong> (centres de données). Ce sont d'énormes bâtiments ultra-sécurisés remplis de milliers de serveurs (des ordinateurs très puissants sans écran).</p>
+            <p>Ces machines tournent 24h/24 et sont reliées entre elles par de la fibre optique ultra-rapide. Quand tu envoies un fichier sur le Cloud, il finit physiquement sur un disque dur dans l'un de ces bâtiments, parfois à l'autre bout du monde.</p>
+            
+            <figure>
+                <img src="images/datacenter.webp" alt="Intérieur d'un data center avec des serveurs">
+                <figcaption>Exemple d'une salle de serveurs dans un Data Center</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h3>3.2. La magie du logiciel : La Virtualisation</h3>
+            <p>C'est ici que ça devient intéressant pour nous, étudiants en info. Au lieu d'utiliser un serveur entier pour une seule personne (ce qui serait un énorme gaspillage), les fournisseurs utilisent la <strong>virtualisation</strong>.</p>
+            <p>Grâce à un logiciel spécial, on découpe un serveur physique en plusieurs "machines virtuelles" indépendantes. C'est ce qui permet à des milliers d'utilisateurs de partager la même machine sans jamais voir les fichiers des autres. C'est grâce à ça que le Cloud est si souple : on peut créer ou supprimer un serveur virtuel en quelques secondes.</p>
+        </section>
+
+        <section>
+            <h3>3.3. L'accessibilité : Internet comme tunnel</h3>
+            <p>Enfin, le dernier composant, c'est le réseau. Internet sert de "tunnel" entre ton appareil (client) et le serveur (Cloud). Ce qui est fort, c'est que le Cloud gère seul la répartition des tâches. Si un serveur tombe en panne, un autre prend le relais immédiatement sans que tu ne t'en rendes compte. C'est ce qu'on appelle la <strong>haute disponibilité</strong>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Site réalisé par <em>El Hajam Ayoub et Sediri Younes</em> - L2 Informatique 30/01/2026</p>
+    </footer>
+
+</body>
+</html>
